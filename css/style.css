@@ -10,6 +10,7 @@
 @import "pedido.css";
 @import "formulario.css";
 @import "contacto.css";
+@import "spinner.css";
 
 
 /* Configuracion global box*/
@@ -20,5 +21,6 @@ html {
 *, *:before, *:after {
   box-sizing: inherit;
 }
+
 
 
