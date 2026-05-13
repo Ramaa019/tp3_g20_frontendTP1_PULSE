@@ -11,6 +11,7 @@
     align-items: center;
     justify-content: center;
     text-align: center;
+
 }
 
 .main-banner--servicios .main-banner__titulo {
@@ -86,25 +87,38 @@
 }
 
 
-.servicios-card__boton {
-    width: 100%;
+.servicios-card__boton,
+.servicios-card__boton-detalle
+{
+    width: auto;
+    height: auto;
     text-align: center;
     text-decoration: none;
-    padding: 15px 0;
     color: #000;
-    font-size: 25px;
-    border: 4px solid #000;
-    margin-top: auto;
+    border: 2px solid #000;
+    border-radius: 5px;
 }
 
-
-.servicios-card__boton:hover {
+.servicios-card__boton:hover,
+.servicios-card__boton-detalle:hover {
     cursor: pointer;
     background-color: #000;
     color: #fff;
 }
 
+.servicios-card__boton-detalle {
+    padding: 0px 10px;
+    font-size: 40px;
+    margin-top: 10px;
+    margin-left: auto;
+}
 
+
+.servicios-card__boton {
+    font-size: 25px;
+    margin: 20px auto  10px auto;
+    padding: 10px;
+}
 
 
 .membresias {
